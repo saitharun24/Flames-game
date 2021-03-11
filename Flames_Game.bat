@@ -1,2 +1,2 @@
 %echo off
-cmd /k "e: & cd /d %CD% & python "Flames Game.py" & exit"
+cmd /k "<disk drive in which the files are present> & cd /d %CD% & python "Flames_Game.py" & exit"
