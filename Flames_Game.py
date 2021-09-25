@@ -31,7 +31,7 @@ if __name__ == "__main__":
     Flames = ["Friends", "Love", "Affection", "Marriage", "Enemy", "Siblings"]
     ind = 0
     while len(Flames) > 1:
-        ind = (count % len(Flames)) - 1
+        ind = ((count+ind) % len(Flames)) - 1
         Flames.remove(Flames[ind])
     print(f"Result returned is --> {Flames[0]}\nCongratulations")
     input('\nPress any key to exit....')
